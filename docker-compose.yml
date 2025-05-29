@@ -20,9 +20,6 @@ services:
 
   backend:
     image: node:16
-    build:
-      context: .
-      dockerfile: Dockerfile
     environment:
       - MODE=local
       - PORT=8081
